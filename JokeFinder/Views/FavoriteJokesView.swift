@@ -30,8 +30,15 @@ struct FavouriteJokesView: View {
                     
                 } else {
                     
-                    // ...otherwise, show how many jokes have been saved
-                    Text("There are \(viewModel.favouriteJokes.count) saved jokes.")
+                    // Show a scrollable list of saved jokes
+                    List(viewModel.favouriteJokes) { currentJoke in
+                        VStack(alignment: .leading, spacing: 5) {
+                            Text(currentJoke.setup ?? "")
+                            Text(currentJoke.punchline ?? "")
+                                .italic()
+                        }
+                    }
+                    .listStyle(.plain)
                     
                 }
             }

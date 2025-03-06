@@ -28,7 +28,7 @@ struct FavouriteJokesView: View {
                 
                 VStack {
                     // When there are no saved jokes...
-                    if viewModel.favouriteJokes.isEmpty {
+                    if viewModel.favoriteJokes.isEmpty {
                         
                         // ... show an appropriate message
                         ContentUnavailableView(
@@ -40,7 +40,7 @@ struct FavouriteJokesView: View {
                     } else {
                         
                         // Show a scrollable list of saved jokes
-                        List(viewModel.favouriteJokes) { currentJoke in
+                        List(viewModel.favoriteJokes) { currentJoke in
                             VStack(alignment: .leading, spacing: 5) {
                                 Text(currentJoke.setup ?? "")
                                 Text(currentJoke.punchline ?? "")

@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		495AF5492D79EF1E004C58E1 /* FavoriteJokesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495AF5482D79EF1E004C58E1 /* FavoriteJokesView.swift */; };
 		495AF54B2D79EF67004C58E1 /* LandingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495AF54A2D79EF62004C58E1 /* LandingView.swift */; };
+		495AF54E2D79FAC2004C58E1 /* SharedFunctionsAndConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495AF54D2D79FA9A004C58E1 /* SharedFunctionsAndConstants.swift */; };
 		49BDA58C2D763A6B00279571 /* JokeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BDA5892D763A6B00279571 /* JokeView.swift */; };
 		49BDA58D2D763A6B00279571 /* JokeFinderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BDA58A2D763A6B00279571 /* JokeFinderApp.swift */; };
 		49BDA58E2D763A6B00279571 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49BDA5862D763A6B00279571 /* Preview Assets.xcassets */; };
@@ -20,6 +21,7 @@
 /* Begin PBXFileReference section */
 		495AF5482D79EF1E004C58E1 /* FavoriteJokesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteJokesView.swift; sourceTree = "<group>"; };
 		495AF54A2D79EF62004C58E1 /* LandingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingView.swift; sourceTree = "<group>"; };
+		495AF54D2D79FA9A004C58E1 /* SharedFunctionsAndConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedFunctionsAndConstants.swift; sourceTree = "<group>"; };
 		49BDA5752D763A5A00279571 /* JokeFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JokeFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49BDA5862D763A6B00279571 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		49BDA5882D763A6B00279571 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -40,6 +42,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		495AF54C2D79FA88004C58E1 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				495AF54D2D79FA9A004C58E1 /* SharedFunctionsAndConstants.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
 		49BDA56C2D763A5A00279571 = {
 			isa = PBXGroup;
 			children = (
@@ -68,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				49BDA58A2D763A6B00279571 /* JokeFinderApp.swift */,
+				495AF54C2D79FA88004C58E1 /* Shared */,
 				49BDA5912D763AF600279571 /* Model */,
 				49BDA5922D763B0100279571 /* ViewModels */,
 				49BDA5932D763B0A00279571 /* Views */,
@@ -179,6 +190,7 @@
 				495AF54B2D79EF67004C58E1 /* LandingView.swift in Sources */,
 				495AF5492D79EF1E004C58E1 /* FavoriteJokesView.swift in Sources */,
 				49BDA58C2D763A6B00279571 /* JokeView.swift in Sources */,
+				495AF54E2D79FAC2004C58E1 /* SharedFunctionsAndConstants.swift in Sources */,
 				49BDA58D2D763A6B00279571 /* JokeFinderApp.swift in Sources */,
 				49BDA5952D763CC900279571 /* Joke.swift in Sources */,
 				49BDA5972D763D0400279571 /* JokeViewModel.swift in Sources */,
